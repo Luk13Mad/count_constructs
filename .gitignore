@@ -1,0 +1,3 @@
+*.DS_Store
+*.pyc
+upload_to_cluster.sh
