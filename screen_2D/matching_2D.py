@@ -17,7 +17,7 @@ def sliding_window(large_str : str, window_size : int) -> tuple[int,str] :
     Returns window and idx of window start.
     '''
     if len(large_str) == window_size:
-        return large_str
+        return 0,large_str
     elif len(large_str) < window_size:
         raise ValueError("Window must not be larger than str.")
     
