@@ -16,7 +16,7 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = '<github url where the tool code will remain>',
-    py_modules = ['main', 'screen_2D','screen_3D'],
+    py_modules = ['count_constructs'],
     packages = find_packages(),
     install_requires = [requirements],
     python_requires='>=3.10',
@@ -26,6 +26,6 @@ setup(
     ],
     entry_points = '''
         [console_scripts]
-        count_constructs=src.main:cli
+        count_constructs=count_constructs.main:cli
     '''
 )

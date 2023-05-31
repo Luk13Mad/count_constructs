@@ -2,7 +2,8 @@
 
 
 1. Clone this repository
-2. 'python setup.py install'
-3. 'count_constructs --help'
+2. Change into the downloaded folder
+3. ``pip install .``
+4. ``count_constructs --help``
 
 This should display the help message.
