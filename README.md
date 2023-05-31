@@ -6,4 +6,5 @@
 3. ``pip install .``
 4. ``count_constructs --help``
 
-This should display the help message.
+This should display the help message.  
+Tested with python 3.10.11 .
