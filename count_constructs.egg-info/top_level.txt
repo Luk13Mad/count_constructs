@@ -1,3 +1,0 @@
-main
-screen_2D
-screen_3D

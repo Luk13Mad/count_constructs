@@ -1,3 +1,6 @@
 *.DS_Store
 *.pyc
 upload_to_cluster.sh
+build/
+dist/
+count_constructs.egg-info
