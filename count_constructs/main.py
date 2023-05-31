@@ -1,6 +1,10 @@
 import click
-from .screen_2D.loop_2D import setup_2D
-from .screen_3D.loop_3D import setup_3D
+try: #not best solution but works
+    from screen_2D.loop_2D import setup_2D
+    from screen_3D.loop_3D import setup_3D
+except:
+    from .screen_2D.loop_2D import setup_2D
+    from .screen_3D.loop_3D import setup_3D
 
 @click.group(help = "Command line tool for counting FASTQ files from 2D/3D CRISPR screen.")
 def cli():
