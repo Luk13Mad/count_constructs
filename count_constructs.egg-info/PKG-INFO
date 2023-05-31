@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: count-constructs
+Version: 1.0
+Summary: Tool producing count tables for 2D CRISPR screen.
+Home-page: <github url where the tool code will remain>
+Author: Lukas Madenach
+Author-email: Lukas.madenach@kitz-heidelberg.de
+License: MIT
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
