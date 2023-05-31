@@ -26,6 +26,6 @@ setup(
     ],
     entry_points = '''
         [console_scripts]
-        count_constructs=cli:cli
+        count_constructs=src.main:cli
     '''
 )
