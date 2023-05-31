@@ -15,7 +15,7 @@ setup(
     description = 'Tool producing count tables for 2D CRISPR screen.',
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = '<github url where the tool code will remain>',
+    url = 'https://github.com/Luk13Mad/count_constructs',
     py_modules = ['count_constructs'],
     packages = find_packages(),
     install_requires = [requirements],
